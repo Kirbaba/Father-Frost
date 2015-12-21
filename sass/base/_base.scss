@@ -1,0 +1,55 @@
+a {
+	text-decoration: none;
+	&:hover, &:focus, &:active{
+		outline: none;
+	}
+}
+
+ul {
+	list-style-type: none;
+}
+
+.block_title {
+	color: #fff;
+    font-size: 3.5em;
+	text-align: center;
+	margin-top: 15px;	
+}
+
+.p0  {
+	padding: 0;
+}
+
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #fff;
+	min-width: 1200px;
+	font-family: $l;
+}
+
+b {
+	font-family: $b;
+}
+
+.contain {
+	width: 1200px - 30px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	@include inside-pad;
+}
+
+
+
+
+

@@ -1,0 +1,469 @@
+@font-face {
+  font-family: 'QanelasBlack';
+  src: url("../fonts/Qanelas/QanelasBlack.eot");
+  src: url("../fonts/Qanelas/QanelasBlack.eot") format("embedded-opentype"), url("../fonts/Qanelas/QanelasBlack.woff2") format("woff2"), url("../fonts/Qanelas/QanelasBlack.woff") format("woff"), url("../fonts/Qanelas/QanelasBlack.ttf") format("truetype"), url("../fonts/Qanelas/QanelasBlack.svg#QanelasBlack") format("svg"); }
+@font-face {
+  font-family: 'QanelasBold';
+  src: url("../fonts/Qanelas/QanelasBold.eot");
+  src: url("../fonts/Qanelas/QanelasBold.eot") format("embedded-opentype"), url("../fonts/Qanelas/QanelasBold.woff2") format("woff2"), url("../fonts/Qanelas/QanelasBold.woff") format("woff"), url("../fonts/Qanelas/QanelasBold.ttf") format("truetype"), url("../fonts/Qanelas/QanelasBold.svg#QanelasBold") format("svg"); }
+@font-face {
+  font-family: 'QanelasMedium';
+  src: url("../fonts/Qanelas/QanelasMedium.eot");
+  src: url("../fonts/Qanelas/QanelasMedium.eot") format("embedded-opentype"), url("../fonts/Qanelas/QanelasMedium.woff2") format("woff2"), url("../fonts/Qanelas/QanelasMedium.woff") format("woff"), url("../fonts/Qanelas/QanelasMedium.ttf") format("truetype"), url("../fonts/Qanelas/QanelasMedium.svg#QanelasMedium") format("svg"); }
+@font-face {
+  font-family: 'QanelasLight';
+  src: url("../fonts/Qanelas/QanelasLight.eot");
+  src: url("../fonts/Qanelas/QanelasLight.eot") format("embedded-opentype"), url("../fonts/Qanelas/QanelasLight.woff2") format("woff2"), url("../fonts/Qanelas/QanelasLight.woff") format("woff"), url("../fonts/Qanelas/QanelasLight.ttf") format("truetype"), url("../fonts/Qanelas/QanelasLight.svg#QanelasLight") format("svg"); }
+@font-face {
+  font-family: 'QanelasUltraLight';
+  src: url("../fonts/Qanelas/QanelasUltraLight.eot");
+  src: url("../fonts/Qanelas/QanelasUltraLight.eot") format("embedded-opentype"), url("../fonts/Qanelas/QanelasUltraLight.woff2") format("woff2"), url("../fonts/Qanelas/QanelasUltraLight.woff") format("woff"), url("../fonts/Qanelas/QanelasUltraLight.ttf") format("truetype"), url("../fonts/Qanelas/QanelasUltraLight.svg#QanelasUltraLight") format("svg"); }
+.saying .fotorama__dot {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: none;
+  background-color: #f4ebeb;
+  width: 18px;
+  height: 18px;
+  margin: 0 5px 0 0; }
+.saying .fotorama__nav__frame.fotorama__active .fotorama__dot {
+  width: 18px;
+  height: 18px;
+  background-color: #ff0000;
+  border: 2px; }
+.saying .fotorama__nav--dots .fotorama__nav__frame {
+  width: inherit;
+  height: 30px; }
+.saying .fotorama__nav__shaft {
+  float: right;
+  margin-right: 10px; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus, a:active {
+    outline: none; }
+
+ul {
+  list-style-type: none; }
+
+.block_title {
+  color: #fff;
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 15px; }
+
+.p0 {
+  padding: 0; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fff;
+  min-width: 1200px;
+  font-family: "QanelasLight"; }
+
+b {
+  font-family: "QanelasBold"; }
+
+.contain {
+  width: 1170px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .contain:before, .contain:after {
+    display: table;
+    content: " "; }
+  .contain:after {
+    clear: both; }
+
+.top-border {
+  display: block;
+  position: absolute;
+  top: 0;
+  float: left;
+  width: 100%;
+  height: 95px;
+  background-image: url("../img/top-bord.png");
+  background-repeat: no-repeat;
+  z-index: 2; }
+
+.enterscreen {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 575px;
+  background-image: url("../img/froth.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  padding-top: 100px; }
+  .enterscreen__text {
+    width: 60%;
+    display: block;
+    position: relative;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    z-index: 4; }
+    .enterscreen__text p {
+      margin: 0;
+      text-align: center;
+      font-size: 22px; }
+    .enterscreen__text-item--1 {
+      display: block;
+      float: left;
+      position: relative;
+      background-color: #000;
+      color: #fff;
+      margin-left: 70px;
+      padding: 10px 40px;
+      z-index: 4; }
+    .enterscreen__text-item--2 {
+      display: block;
+      float: left;
+      position: relative;
+      background-color: #fff;
+      color: #000;
+      padding: 50px 40px 10px;
+      margin-top: -40px;
+      text-align: center;
+      z-index: 3;
+      margin-right: 5px; }
+    .enterscreen__text-item--3 {
+      display: block;
+      float: left;
+      position: relative;
+      z-index: 2;
+      background-color: #E9A427;
+      color: #000;
+      margin: 0 10px 0 60px;
+      padding: 10px 40px; }
+  .enterscreen h2 {
+    font-size: 34px;
+    color: #FFF;
+    text-transform: uppercase;
+    padding-left: 80px; }
+
+.ourfrosts {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-image: url("../img/bg2.png");
+  background-repeat: no-repeat;
+  z-index: 2;
+  margin-top: -150px;
+  padding: 150px 0 50px; }
+  .ourfrosts h1 {
+    font-family: "QanelasMedium";
+    font-size: 45px;
+    color: #780302;
+    text-align: center;
+    margin-bottom: 50px;
+    display: block; }
+    .ourfrosts h1 span {
+      background-color: #E8A327; }
+  .ourfrosts--video {
+    display: block;
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 340px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 25px 0 0;
+    margin-top: 10px; }
+    .ourfrosts--video:before, .ourfrosts--video:after {
+      display: table;
+      content: " "; }
+    .ourfrosts--video:after {
+      clear: both; }
+  .ourfrosts--text {
+    display: block;
+    float: left;
+    position: relative;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 25px; }
+    .ourfrosts--text:before, .ourfrosts--text:after {
+      display: table;
+      content: " "; }
+    .ourfrosts--text:after {
+      clear: both; }
+    .ourfrosts--text p {
+      color: #000;
+      font-size: 25px; }
+
+.whyweare {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-image: url("../img/bg3.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: -50px 0;
+  padding: 50px 0;
+  z-index: 2; }
+  .whyweare h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #090000;
+    margin-bottom: 50px; }
+  .whyweare__item {
+    display: block;
+    float: left;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 25px 15px;
+    width: 33.33333%; }
+    .whyweare__item:before, .whyweare__item:after {
+      display: table;
+      content: " "; }
+    .whyweare__item:after {
+      clear: both; }
+    .whyweare__item--img {
+      width: 175px;
+      height: 175px;
+      margin: 25px auto; }
+      .whyweare__item--img img {
+        width: 100%;
+        height: auto; }
+    .whyweare__item h4 {
+      font-family: "QanelasBold";
+      color: #090000;
+      text-align: center;
+      font-size: 26px;
+      display: block;
+      min-height: 90px; }
+    .whyweare__item p {
+      font-size: 18px;
+      font-family: "QanelasMedium";
+      font-weight: 400;
+      text-align: center; }
+
+.choice {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #FCFAFA; }
+  .choice h1 {
+    text-align: center;
+    color: #090000;
+    font-size: 45px;
+    font-family: "QanelasMedium";
+    font-weight: 400;
+    margin-bottom: 50px; }
+  .choice__item {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 15px auto; }
+    .choice__item--number {
+      display: inline-block;
+      width: 76px;
+      height: 76px;
+      background-image: url("../img/numbers.png");
+      background-repeat: no-repeat;
+      vertical-align: top;
+      text-align: center; }
+      .choice__item--number b {
+        font-size: 30px;
+        line-height: 76px; }
+    .choice__item--text {
+      display: inline-block;
+      width: calc(100% - 80px); }
+      .choice__item--text p {
+        font-size: 25px;
+        font-family: "QanelasMedium";
+        font-weight: 400;
+        color: #090000;
+        padding-left: 25px; }
+
+.order {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background: url("../img/bg5.png");
+  background-repeat: no-repeat;
+  margin: -50px 0;
+  z-index: 2;
+  padding: 75px 0; }
+  .order__item {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    background-image: url("../img/order.png");
+    background-repeat: no-repeat;
+    padding-left: 35%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    color: #090000;
+    font-family: "QanelasMedium";
+    font-weight: 400;
+    text-align: center; }
+    .order__item h2 {
+      font-size: 38px;
+      margin-bottom: 90px;
+      padding: 0 40px; }
+    .order__item p {
+      font-size: 26px; }
+
+.saying {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 0 0 50px 0; }
+  .saying h1 {
+    text-align: center;
+    color: #090000;
+    font-size: 45px;
+    font-family: "QanelasMedium";
+    font-weight: 400;
+    margin-bottom: 50px; }
+  .saying__item {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 25px 0; }
+    .saying__item--img {
+      display: inline-block;
+      width: 207px;
+      height: 207px;
+      vertical-align: top; }
+    .saying__item--text {
+      display: inline-block;
+      width: calc(100% - 212px);
+      padding-left: 25px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .saying__item--text:before, .saying__item--text:after {
+        display: table;
+        content: " "; }
+      .saying__item--text:after {
+        clear: both; }
+      .saying__item--text p {
+        font-family: "QanelasMedium";
+        color: #090000;
+        font-size: 25px; }
+
+.write {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background: url("../img/bg5.png");
+  background-repeat: no-repeat;
+  margin: -50px 0;
+  z-index: 2;
+  padding: 75px 0 100px;
+  z-index: 2; }
+  .write__item {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-left: 45%; }
+    .write__item h3 {
+      font-size: 33px;
+      color: #090000;
+      font-family: "QanelasMedium";
+      margin-bottom: 50px;
+      text-align: center; }
+    .write__item h4 {
+      font-size: 33px;
+      color: #090000;
+      font-family: "QanelasLight";
+      font-style: italic;
+      text-align: left;
+      margin-bottom: 30px; }
+  .write__but {
+    display: block;
+    float: left;
+    width: 330px;
+    height: 80px;
+    line-height: 70px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "QanelasLight";
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    color: #090000;
+    text-decoration: none;
+    border: 5px solid transparent; }
+    .write__but:hover {
+      border: 5px solid #ff0000;
+      text-decoration: none;
+      color: #090000; }
+  .write__arrow {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 62px;
+    z-index: 3;
+    bottom: 60px;
+    right: 26%;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat; }
+
+.footer {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 50px 0 25px;
+  background-image: url("../img/footer-bg.png");
+  background-repeat: no-repeat;
+  margin-top: -25px;
+  z-index: 3; }
+  .footer h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 26px;
+    color: #090000;
+    font-style: italic;
+    font-family: "QanelasLight"; }
+
+@media only screen and (max-width: 770px) {
+  .align-left {
+    text-align: center; }
+
+  .align-right {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */

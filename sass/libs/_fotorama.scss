@@ -1,0 +1,28 @@
+.saying {
+	.fotorama__dot {
+		@include border-radius(50%);
+		border: none;
+		background-color: #f4ebeb;
+		width: 18px;
+		height: 18px;
+		margin: 0 5px 0 0;
+	}
+		
+	.fotorama__nav__frame.fotorama__active .fotorama__dot {
+		width: 18px;
+		height: 18px;
+		background-color: #ff0000;
+		border: 2px;	
+	}
+
+	.fotorama__nav--dots .fotorama__nav__frame {
+	    width: inherit;
+	    height: 30px;
+	}
+
+	.fotorama__nav__shaft {
+	    float: right;
+	    margin-right: 10px;
+	}
+
+}

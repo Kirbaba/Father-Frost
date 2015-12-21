@@ -1,0 +1,19 @@
+.footer {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 50px 0 25px;
+	background-image: url('../img/footer-bg.png');
+	background-repeat: no-repeat;
+	margin-top: -25px;
+	z-index: 3;
+	h4 {
+		text-align: center;
+		margin: 0;
+		font-size: 26px;
+		color: #090000;
+		font-style: italic;
+		font-family: $l;
+	}
+}
