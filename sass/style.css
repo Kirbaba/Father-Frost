@@ -386,14 +386,18 @@ b {
   background-repeat: no-repeat;
   margin: -50px 0;
   z-index: 2;
-  padding: 75px 0 100px;
+  padding: 0;
   z-index: 2; }
   .write__item {
     display: block;
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 45%; }
+    padding-left: 45%;
+    background-image: url("../img/order-2.png");
+    background-repeat: no-repeat;
+    padding-bottom: 55px;
+    padding-top: 25px; }
     .write__item h3 {
       font-size: 33px;
       color: #090000;
@@ -436,7 +440,7 @@ b {
     width: 30px;
     height: 62px;
     z-index: 3;
-    bottom: 60px;
+    bottom: 115px;
     right: 26%;
     background-image: url("../img/arrow.png");
     background-repeat: no-repeat; }
@@ -449,7 +453,7 @@ b {
   padding: 50px 0 25px;
   background-image: url("../img/footer-bg.png");
   background-repeat: no-repeat;
-  margin-top: -25px;
+  margin-top: 35px;
   z-index: 3; }
   .footer h4 {
     text-align: center;
